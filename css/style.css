@@ -1,0 +1,85 @@
+/*
+#000000 этот черный
+#fe9500 этот оранжевый
+#a6a6a6 этот серый
+#2f2f2f этот светло серый
+#fefefe этот белый
+*/
+
+body {
+    background-color: #b7d1a2
+    ;
+
+}
+
+#calc-contain{
+    background-color:#000000;
+    height:270px;
+    width:175px;
+    position:relative;
+    text-align: center;
+    margin: 100px auto 0;
+
+    
+
+}
+.text{
+    background-color: transparent;
+    color: #fefefe;
+    border: none;
+    outline: none;
+    text-align: right;
+    font-size: 25px;
+    height:30px;
+    width:175px;
+    margin-right: 20px;
+
+}
+.button{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2f2f2f;
+    color: #fefefe;
+    margin-top: 5px;
+    border: none;
+
+}
+.button-orange{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fe9500;
+    color: #fefefe;
+    border: none;
+}
+.button-light{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #a6a6a6;
+    color: #fefefe;
+    margin-top: 5px;
+    border: none;
+
+}
+.button-big{
+    font-size: 20px;
+    width: 80px;
+    height: 40px;
+    border-radius: 120px;
+    background-color: #2f2f2f;
+    color: #fefefe;
+    margin-top: 5px;
+    margin-right: 3px;
+    text-align: left;
+    border: none;
+    
+
+}
+
+
+

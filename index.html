@@ -1,41 +1,36 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>iosCalculator</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <script src="script.js"></script>
-    <div id='calc-contain'>
-      <form name="calculator" class="calculator">
-        <input type="text" class="text" name="answer" />
-        <br>
-        <button type="button" class="button-light" onclick="calculator.answer.value = ''" >c</button>
-        <button type="button" class="button-light" onclick="calculator.answer.value += ''" >+/-</button>
-        <button type="button" class="button-light" onclick="calculator.answer.value += '3'" >%</button>
-        <button type="button" class="button-orange" onclick="calculator.answer.value += '÷'" >÷</button>
-        <br/>
-        <button type="button" class="button" onclick="calculator.answer.value += '7'" >7</button>
-        <button type="button" class="button" onclick="calculator.answer.value += '8'" >8</button>
-        <button type="button" class="button" onclick="calculator.answer.value += '9'" >9</button>
-        <button type="button" class="button-orange" onclick="calculator.answer.value += '×'" >×</button>
-        <br/>
-        <button type="button" class="button" onclick="calculator.answer.value += '4'" >4</button>
-        <button type="button" class="button" onclick="calculator.answer.value += '5'" >5</button>
-        <button type="button" class="button" onclick="calculator.answer.value += '6'" >6</button>
-        <button type="button" class="button-orange" onclick="calculator.answer.value += '-'" >-</button>
-        </br>
-        <button type="button" class="button" onclick="calculator.answer.value += '1'" >1</button>
-        <button type="button" class="button" onclick="calculator.answer.value += '2'" >2</button>
-        <button type="button" class="button" onclick="calculator.answer.value += '3'" >3</button>
-        <button type="button" class="button-orange" onclick="calculator.answer.value += '+'" >+</button>
-        </br>
-        <button type="button" class="button-big" onclick="calculator.answer.value += '0'" >0</button>
-        <button type="button" class="button" onclick="calculator.answer.value = ','" >,</button>
-        <button type="button" class="button-orange" onclick="calculator.answer.value = eval(calculator.answer.value)" >=</button>
-        </br>
-      </form>
-    </div>
-  </body>
-  </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>iosCalculator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <script src="script.js"></script>
+  <div id='calc-contain' class="calc-contain">
+    <form name="calculator" class="calculator">
+      <input type="calculator__text" class="calculator__text" name="answer"/>
+      <br>
+      <button type="button" class="calculator__button-light" onclick="calculator.answer.value =''">c</button>
+      <button type="button" class="calculator__button-light" onclick="calculator.answer.value +=''">+/-</button>
+      <button type="button" class="calculator__button-light" onclick="calculator.answer.value +='3'">%</button>
+      <button type="button" class="calculator__button-orange" onclick="calculator.answer.value +='÷'">÷</button>
+      <button type="button" class="calculator__button" onclick="calculator.answer.value +='7'">7</button>
+      <button type="button" class="calculator__button" onclick="calculator.answer.value +='8'">8</button>
+      <button type="button" class="calculator__button" onclick="calculator.answer.value +='9'">9</button>
+      <button type="button" class="calculator__button-orange" onclick="calculator.answer.value +='×'">×</button>
+      <button type="button" class="calculator__button" onclick="calculator.answer.value +='4'">4</button>
+      <button type="button" class="calculator__button" onclick="calculator.answer.value +='5'">5</button>
+      <button type="button" class="calculator__button" onclick="calculator.answer.value +='6'">6</button>
+      <button type="button" class="calculator__button-orange" onclick="calculator.answer.value +='-'">-</button>
+      <button type="button" class="calculator__button" onclick="calculator.answer.value +='1'">1</button>
+      <button type="button" class="calculator__button" onclick="calculator.answer.value +='2'">2</button>
+      <button type="button" class="calculator__button" onclick="calculator.answer.value +='3'">3</button>
+      <button type="button" class="calculator__button-orange" onclick="calculator.answer.value +='+'">+</button>
+      <button type="button" class="calculator__button-big" onclick="calculator.answer.value +='0'">0</button>
+      <button type="button" class="calculator__button" onclick="calculator.answer.value =','">,</button>
+      <button type="button" class="calculator__button-orange" onclick="calculator.answer.value = eval(calculator.answer.value)">=</button>
+    </form>
+  </div>
+</body>
+</html>

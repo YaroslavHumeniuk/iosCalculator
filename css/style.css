@@ -27,7 +27,7 @@ body {
     font-size: 20px;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
+    border-radius: 20px;
     background-color: #2f2f2f;
     color: #fefefe;
     margin-top: 5px;
@@ -36,42 +36,16 @@ body {
     vertical-align: middle;
 }
 
-.calculator__button-orange {
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+.calculator__button--orange {
     background-color: #fe9500;
-    color: #fefefe;
-    border: none;
-    padding-bottom: 3px;
-    vertical-align: middle;
 }
 
-.calculator__button-light {
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+.calculator__button--light {
     background-color: #a6a6a6;
-    color: #fefefe;
-    margin-top: 5px;
-    border: none;
-    display: table-cell;
-    vertical-align: middle;
 }
 
-.calculator__button-big {
-    font-size: 20px;
+.calculator__button--big {
     width: 80px;
-    height: 40px;
-    border-radius: 120px;
-    background-color: #2f2f2f;
-    color: #fefefe;
-    margin-top: 5px;
-    margin-right: 4px;
-    padding-left: 16px;
     text-align: left;
-    border: none;
-    vertical-align: middle;
+    padding-left: 13px;
 }
